@@ -1,0 +1,5 @@
+file [fichero] # Indica que tipo de fichero es
+cat
+head
+tail
+wc
