@@ -3,3 +3,7 @@ cat
 head
 tail
 wc
+ln
+  -s [ArchivoOriginal] [NombreDelEnlace]
+mkdir
+  -p
