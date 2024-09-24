@@ -1,7 +1,8 @@
 # Gestion de procesos
 
 ps
-
+  - aux
+  - ef
 pstree 
 
 kill
