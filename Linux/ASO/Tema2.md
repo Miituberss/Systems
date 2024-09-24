@@ -1,6 +1,6 @@
 # Memoria SWAP
 free  
-  -h  
+  - -h  
 swapon -s  
 sudo swapoff /swapfile  
 sudo fallocate -l 4G /swapfile  
@@ -11,12 +11,12 @@ sudo swapon /swapfile
 
 # Gestion de procesos
 ps  
-  aux  
-  -ef  
-  -lcy  
-  -u **_usuario_**  
-  -C **_command_**  
-  -p **_pid_**  
+aux  
+  - -ef  
+  - -lcy  
+  - -u **_usuario_**  
+  - -C **_command_**  
+  - -p **_pid_**  
 pstree  
 kill  
 pkill  
