@@ -1,7 +1,7 @@
 #Gestion de procesos
 ps
 pstree
-kill
+```kill```
 pkill
 pgrep
 nice
