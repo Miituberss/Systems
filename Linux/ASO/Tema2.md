@@ -1,7 +1,6 @@
 # Gestion de procesos
 
-ps
-  - aux
+ps  - aux
   - ef
 pstree 
 
