@@ -12,11 +12,11 @@ sudo swapon /swapfile
 # Gestion de procesos
 ps  
 aux  
-  - -ef  
-  - -lcy  
-  - -u **_usuario_**  
-  - -C **_command_**  
-  - -p **_pid_**  
+  -ef  
+  -lcy  
+  -u **_usuario_**  
+  -C **_command_**  
+  -p **_pid_**  
 pstree  
 kill  
 pkill  
