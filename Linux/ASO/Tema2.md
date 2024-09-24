@@ -18,7 +18,7 @@ fg
 
 bg
 
-*comando* &
+**_comando_** &
 
 jobs Muestra los trabajos en 2º plano
 
