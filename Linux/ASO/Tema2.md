@@ -1,6 +1,6 @@
 #Gestion de procesos#
 ps
-pstree
+pstree 
 
 kill
 
