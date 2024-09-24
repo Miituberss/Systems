@@ -1,7 +1,8 @@
 #Gestion de procesos
+```
 ps
 pstree
-```kill```
+kill
 pkill
 pgrep
 nice
@@ -14,3 +15,4 @@ nohup *comando* &
 yes
 CTRL-C #Mata el proceso
 CTRL-Z #Detiene el proceso
+```
