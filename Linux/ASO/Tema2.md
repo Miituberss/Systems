@@ -3,6 +3,8 @@
 ps  
   - aux
   - ef
+  - lcy
+  - -u **_alumno_**
     
 pstree 
 
@@ -22,9 +24,9 @@ bg
 
 **_comando_** &
 
-jobs Muestra los trabajos en 2º plano
+jobs #Muestra los trabajos en 2º plano
 
-nohup **_comando_** & #Reenvia la salida a otro lugar (Por DF nohup.out)
+nohup **_comando_** & #Reenvia la salida a otro lugar (Por DF nohup.out) protegiendolos de apagados o desconexiones
 
 yes
 
