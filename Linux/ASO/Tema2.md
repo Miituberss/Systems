@@ -22,7 +22,7 @@ bg
 
 jobs Muestra los trabajos en 2º plano
 
-nohup *comando* & --> Reenvia la salida a otro lugar (Por DF nohup.out)
+nohup **_comando_** & --> Reenvia la salida a otro lugar (Por DF nohup.out)
 
 yes
 
