@@ -7,6 +7,6 @@ renice
 fg
 bg
 <comando> &
-jobs ;Muestra los trabajos en 2º plano
+jobs #Muestra los trabajos en 2º plano
 nohup <comando> &
 yes
