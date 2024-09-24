@@ -1,6 +1,7 @@
 # Memoria SWAP
 free  
-  - -h  
+  - -h
+
 swapon -s  
 sudo swapoff /swapfile  
 sudo fallocate -l 4G /swapfile  
