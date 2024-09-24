@@ -6,11 +6,9 @@ swapon -s
 sudo swapoff /swapfile  
 sudo fallocate -l 4G /swapfile  
 sudo dd if=/dev/zero of=/swapfile bs=1M count=512  
-```
 chmod 600 /swapfile → Cambiamos los permisos para que solo tenga acceso root  
 sudo mkswap /swapfile → Convertimos el fichero anterior en un fichero de SWAP  
 sudo swapon /swapfile  
-```
 
 # Gestion de procesos
 ps  
