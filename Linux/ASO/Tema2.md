@@ -1,9 +1,9 @@
 # Gestion de procesos
 + ps  
   - aux
-  - ef
-  - lcy
-  - -u **_alumno_**
+  - -ef
+  - -lcy
+  - -u **_usuario_**
 + pstree 
 + kill
 + pkill
