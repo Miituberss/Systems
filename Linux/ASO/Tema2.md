@@ -15,7 +15,7 @@ ps
 aux  
   - -ef  
   - -lcy  
-  - -u **_usuario_**  
+  - -u ***usuario***  
   - -C **_command_**  
   - -p **_pid_**
 
