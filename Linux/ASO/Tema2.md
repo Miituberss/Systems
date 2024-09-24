@@ -1,5 +1,7 @@
-#Gestion de procesos#
+#Gestion de procesos
+
 ps
+
 pstree 
 
 kill
