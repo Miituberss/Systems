@@ -1,8 +1,5 @@
 | COMANDO  | EXPLICACION  |
 |----------|--------------|
-| chmod 600 /swapfile  | **# Cambiamos los permisos para que solo tenga acceso root**  |
-| sudo mkswap /swapfile  | **# Convertimos el fichero anterior en un fichero de SWAP**  | 
-
-
-chmod 600 /swapfile **# Cambiamos los permisos para que solo tenga acceso root**  
-sudo mkswap /swapfile **# Convertimos el fichero anterior en un fichero de SWAP**  
+|kill *PID* | **# Mata el proceso** |
+|  -  -l | **# Muestra todas las señales** |
+|  -  *n* | **# Indica que se quiere mandar la señal *n*** |
