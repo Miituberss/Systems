@@ -1,8 +1,8 @@
 # Obtener info del sistema y HW Linux
-lsb_release -a   **# **  
-uname -a   **# **  
-whatis   **# **  
-apropos   **# **  
+lsb_release -a   **# Muestra la version del linux**  
+uname -a   **# Informacion sobre el kernel**  
+whatis   **# Explicacion sobre la función del comando**  
+apropos   **# Da todos los comandos en cuyo manual se menciona la busqueda**  
 lscpu   **# **  
 cpuid   **# **  
 lspci   **# **  
