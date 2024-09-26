@@ -14,7 +14,7 @@ lshw   **# **
   - -c *tipoHW* **# **  
   - -x **# **  
   - -short **# **  
- **# **  
+
 inxi   **# **  
 ethtool *interfaz*   **# **  
 dmidecode   **# **  
