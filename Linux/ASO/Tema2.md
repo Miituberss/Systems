@@ -13,7 +13,7 @@ ps
 aux  
   - -ef  
   - -lcy  
-  - ```-u ***usuario***  ```
+  - ```-u ***usuario*** `
   - -C ***command***  
   - -p ***pid***
 
