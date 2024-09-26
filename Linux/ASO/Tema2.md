@@ -73,4 +73,4 @@ lsof **# Muestra todos los ficheros abiertos**
 
 kill
   -  -l
-  -  <i style="color:'green'">n</i>
+  -  <i style="color:green">n</i>
