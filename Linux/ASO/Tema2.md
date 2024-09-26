@@ -24,7 +24,8 @@ ps
 
 pstree  
 kill  
-pkill  
+pkill
+pmap *pid* **# Muestra la utilización de memoria de un proceso**
 pgrep  
 nice  
 renice  
@@ -47,3 +48,8 @@ tail
     
 tr  
   - -s "*caracter*" **# Suprime el caracter si esta repetido**
+    
+watch -n*n* '*command*' **# Cada *n* segundos ejecuta el comando, lo que permite una visualización actualizada**  
+top  
+fuser *fichero* **# Muestra todos los procesos que acceden a un fichero o partición**  
+lsof **# Muestra todos los ficheros abiertos**
