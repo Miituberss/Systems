@@ -70,3 +70,7 @@ lsof **# Muestra todos los ficheros abiertos**
   - -i *:puerto* **# Muestra los puertos vinculados, si indicas un puerto filtra por él**
   - -c *command* **# Filtra por CMD**
   - *file* **# Muestra los procesos pendientes del archivo**
+
+kill
+  -  -l
+  -  <i style="color:'green'">n</i>
