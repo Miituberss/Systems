@@ -1,4 +1,4 @@
-# Sistema y HW Linux
+# Obtener info del sistema y HW Linux
 lsb_release -a  
 uname -a  
 whatis  
