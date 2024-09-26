@@ -35,7 +35,7 @@ fdisk -l
 mount  
 sysinfo  
 hdparm  
-**No entra**  
+**---No entra---**  
 glxinfo  
 xrandr  
 aplay -l
