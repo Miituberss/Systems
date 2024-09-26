@@ -53,4 +53,5 @@ watch -n*n* '*command*' **# Cada *n* segundos ejecuta el comando, lo que permite
 top  
 fuser *fichero* **# Muestra todos los procesos que acceden a un fichero o partición**  
   - -k **# Mata todos los procesos que están accediendo al fichero**
+    
 lsof **# Muestra todos los ficheros abiertos**
