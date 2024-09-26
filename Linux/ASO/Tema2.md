@@ -27,7 +27,7 @@ fg
 bg  
 ***comando*** &  
 jobs #Muestra los trabajos en 2º plano  
-nohup ***comando*** & → Reenvia la salida a otro lugar (Por DF nohup.out)   protegiendolos de apagados o desconexiones  
+nohup ***comando*** & // Reenvia la salida a otro lugar (Por DF nohup.out)   protegiendolos de apagados o desconexiones  
 yes  
 CTRL-C → Mata el proceso  
 CTRL-Z → Detiene el proceso  
