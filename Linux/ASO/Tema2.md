@@ -22,9 +22,7 @@ ps
   - --ppid *PID* **# Muestra todos los hijos del PID indicado**
   - -L **# Junto a -p *pid* muestra los threads (LWP) del proceso indicado**
 
-pstree  
-kill  
-pkill
+pstree   
 pmap *pid* **# Muestra la utilización de memoria de un proceso**
 pgrep  
 nice -n [ - ]*n* *programa* **# Lanza el programa con la prioridad indicada**  
@@ -74,3 +72,7 @@ lsof **# Muestra todos los ficheros abiertos**
 kill *PID*
   -  -l
   -  *n*
+
+
+pkill *comando* **# Es como kill pero permite busquedas por nombre (a modo pgrep)**  
+pgrep  **# Permite busquedas por nombre (a modo pgrep)**  
