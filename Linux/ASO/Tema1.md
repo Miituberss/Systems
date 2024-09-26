@@ -1,3 +1,5 @@
+# Obtener información del sistema y del hardware en Linux
+
 | COMANDO  | EXPLICACION  |
 |----------|--------------|
 | lsb_release -a   | **# Muestra la version del linux**  |
@@ -34,7 +36,7 @@
 | mount   | **# **  |
 | sysinfo   | **# **  |
 | hdparm   | **# **  |
-| **---No entra---**   | **# **  |
+| **---No entra---**  |
 | glxinfo   | **# **  |
 | xrandr   | **# **  |
 | aplay -l | **# **  |
