@@ -71,6 +71,6 @@ lsof **# Muestra todos los ficheros abiertos**
   - -c *command* **# Filtra por CMD**
   - *file* **# Muestra los procesos pendientes del archivo**
 
-kill
+kill *proceso*
   -  -l
-  -  <p style="color:green;">n</p>
+  -  *n*
