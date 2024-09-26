@@ -14,7 +14,7 @@ ps
   - -ef  
   - -lcy  
   - -u *usuario*  
-  - -C *busqueda*    **# Filtra por la columna CMD**  
+  - -C *busqueda* **# Filtra por la columna CMD**  
   - -p *pid*
   - --sort=*-opcion* **# Facilita el ordenar**
   - --forest **#formato tree**
@@ -40,4 +40,4 @@ sort
   - -r **# Inverso**
 
 tail  
-  - -n+*n*
+  - -n+*n* **# Saca las filas de la linea *n* en adelante**
