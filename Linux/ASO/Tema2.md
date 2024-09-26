@@ -16,7 +16,7 @@ ps
   - -u *usuario*  
   - -C *command*  
   - -p *pid*
-  - --sort=*opcion* **# Facilita el ordenar**
+  - --sort=*\-opcion* **# Facilita el ordenar**
 
 pstree  
 kill  
@@ -33,6 +33,7 @@ yes
 CTRL-C   **# Mata el proceso**  
 CTRL-Z   **# Detiene el proceso**  
 sort
-  - -t "*delimitador"
+  - -t "*delimitador*"
   - -k*n*
-  - -n **# Indica que ordene numericamente**
+  - -n **# Indica que ordene numéricamente**
+  - -r **# Inverso**
