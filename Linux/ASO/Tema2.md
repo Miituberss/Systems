@@ -18,7 +18,8 @@ ps
   - -p *pid*
   - --sort=*opcion* **# Facilita el ordenar**
   - --forest **# Formato tree**
-  - -o *opcion1, opcion2...* **# Permite sacar los campos específicos**
+  - -o *opcion1, opcion2...* **# Permite sacar los campos específicos (como el cut)**
+  - --ppid *PID* **# Muestra todos los hijos del PID indicado**
 
 pstree  
 kill  
@@ -42,3 +43,6 @@ sort
 
 tail  
   - -n+*n* **# Saca las filas de la linea *n* en adelante**
+    
+tr  
+  - -s "*caracter*" **# Suprime el caracter si esta repetido**
