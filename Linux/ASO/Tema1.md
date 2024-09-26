@@ -20,7 +20,7 @@ ethtool *interfaz*   **# **
 dmidecode   **# **  
   - -t *tipo* **# **  
   - -s *keyword* **# **  
- **# **  
+
 lsdev   **# **  
 swapon -s   **# **  
 free -h   **# **  
