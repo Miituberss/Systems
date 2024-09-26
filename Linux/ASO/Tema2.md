@@ -1,5 +1,4 @@
 # Memoria SWAP
-# Memoria SWAP
 | COMANDO  | EXPLICACION  |
 |----------|--------------|
 |free  -h  |
