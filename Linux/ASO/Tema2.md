@@ -27,9 +27,7 @@ kill
 pkill
 pmap *pid* **# Muestra la utilización de memoria de un proceso**
 pgrep  
-nice  
-  -  -n [-]*n* *programa* **# Lanza el programa con la prioridad indicada**
-    
+nice -n [ - ]*n* *programa* **# Lanza el programa con la prioridad indicada**  
 renice [ + | - ]*n* *programa*  
   - -p **# PID cambia la prioridad para el proceso especificado**
   - -g **# Grupo cambia la prioridad para los procesos ejecutados por los usuarios que pertenecen al grupo con GID=grupo**
