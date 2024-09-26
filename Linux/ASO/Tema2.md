@@ -53,7 +53,7 @@ tail
 tr  
   - -s "*caracter*" **# Suprime el caracter si esta repetido**
     
-watch -n*n* ' *command* ' **# Cada *n* segundos ejecuta el comando, lo que permite una visualización actualizada**  
+watch -n*n* '*command* ' **# Cada *n* segundos ejecuta el comando, lo que permite una visualización actualizada**  
 top  
 fuser *fichero* **# Muestra todos los procesos que acceden a un fichero o partición**  
   - -k **# Mata todos los procesos que están accediendo al fichero**
