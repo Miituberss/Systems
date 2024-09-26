@@ -1,5 +1,5 @@
 # Memoria SWAP
-~~
+~~  
 free  -h  
 swapon -s  
 sudo swapoff /swapfile  
