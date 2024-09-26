@@ -37,3 +37,6 @@ sort
   - -k*n*
   - -n **# Indica que ordene numéricamente**
   - -r **# Inverso**
+
+tail  
+  - -n+*n*
