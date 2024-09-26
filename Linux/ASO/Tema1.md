@@ -11,3 +11,31 @@ lsusb -vvv
 lsscsi  
 lshw  
   - -html>/*doc.html*
+  - -c *tipoHW*
+  - -x
+  - -short
+
+inxi  
+ethtool *interfaz*  
+dmidecode  
+  - -t *tipo*
+  - -s *keyword*
+
+lsdev  
+swapon -s  
+free -h  
+acpi -v  
+lsmod  
+modinfo  
+modprobe  
+ifconfig  
+iwconfig  
+lsblk  
+fdisk -l  
+mount  
+sysinfo  
+hdparm  
+-------------------
+glxinfo  
+xrandr  
+aplay -l
