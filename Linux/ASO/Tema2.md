@@ -19,7 +19,8 @@ ps
   - --sort=*opcion* **# Facilita el ordenar**
   - --forest **# Formato tree**
   - -o *opcion1, opcion2...* **# Permite sacar los campos específicos (como el cut)**
-  - --ppid *PID* **# Muestra todos los hijos del PID indicado**  
+  - --ppid *PID* **# Muestra todos los hijos del PID indicado**
+  - -L **# Junto a -p *pid* muestra los threads (LWP) del proceso indicado**
 
 pstree  
 kill  
