@@ -14,9 +14,10 @@ ps
   - -ef  
   - -lcy  
   - -u *usuario*  
-  - -C *command*  
+  - -C *busqueda* **# Filtra por la columna CMD**  
   - -p *pid*
   - --sort=*-opcion* **# Facilita el ordenar**
+  - --forest **#formato tree**
 
 pstree  
 kill  
