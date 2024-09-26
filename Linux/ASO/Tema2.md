@@ -16,7 +16,7 @@ ps
   - -u *usuario*  
   - -C *command*  
   - -p *pid*
-  - --sort=*\-opcion* **# Facilita el ordenar**
+  - --sort=*-opcion* **# Facilita el ordenar**
 
 pstree  
 kill  
