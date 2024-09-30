@@ -20,6 +20,7 @@ gateway
 post-up /sbin/iptables -t nat -A POSTROUTING -o *interfaz* -j MASQUERADE  
   
 ## Cliente  
+**cat /etc/network/interfaces**  
 #Red Local  
 auto *interfaz*  
 allow-hotplug *interfaz*  
