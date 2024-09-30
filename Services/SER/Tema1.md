@@ -15,8 +15,10 @@ allow-hotplug *interfaz*
 iface *interfaz* inet static  
 address *IP*  
 netmask *máscara*  
-gateway *GW*  
-  
+gateway *GW*
+
+**nano /etc/sysctl.conf**
+> net.ipv4.ip_forward=1 **#Descomentamos**
 ## Cliente  
 **cat /etc/network/interfaces**  
 > **#Red Local**  
