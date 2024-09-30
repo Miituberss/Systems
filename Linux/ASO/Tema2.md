@@ -72,4 +72,13 @@
 | killall command | **# Mata todos los procesos correspondientes al comando** |
 | pkill command | **# Es como kill pero permite busquedas por nombre (a modo pgrep o killall)**   |
 | pgrep command | **# Permite busquedas por nombre**   |
+|   \\_ -u *usuario*| **# Filtra por usuario**|
 | pidof command | **# Saca todos los PID asociados al comando (a modo pgrep)**|
+
+# Planificación de tareas
+| COMANDO  | EXPLICACION  |
+|----------|--------------|
+| at *hh:mm* *day\|tomorrow* *now + x hour*| **# Para indicar el final de la ejecución hay que usar CTRL+D, se le puede meter un comando con tubería \[*comando* \| at...\]** |
+| \\_ -f *script* | **# Indica que lo que se debe ejecutar es el script** |
+| atq | **# Muestra las tareas pendientes de at** |
+atrm
