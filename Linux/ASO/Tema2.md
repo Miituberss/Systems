@@ -10,7 +10,7 @@
 |sudo mkswap /swapfile | **# Convertimos el fichero anterior en un fichero de SWAP**  |
 |sudo swapon /swapfile  |
 
-# Gestion de procesos
+# Gestión de procesos
 | COMANDO  | EXPLICACION  |
 |----------|--------------|
 | ps   |
@@ -83,8 +83,13 @@
 | atq | **# Muestra las tareas pendientes de at** |
 | atrm *num* | **# Elimina un trabajo** |
 | batch *script* | **# Se usa para leer comandos desde un fichero o la entrada estándar y lo ejecuta cuando la carga del sistema lo permite (/proc/loadavg),normalmente cuando está por debajo de 1.5** |
-  
-crontab -e **# Fichero de tareas programadas**
+|anacron|**# Complementa al crontab permitiendo su uso en sistemas no 24/7, de esta manera cuando se enciende hace una revisión para ver si hay alguna tarea que no se haya ejecutado mientras estaba apagado pero debería**|
+|crontab | **# Fichero de tareas programadas**  |
+|\\_ -u *usuario* | **# Crea o maneja el crontab de un usuario específico (solo root)**|
+|\\_ -e | **# Edita el fichero crontab**  |
+|\\_ -l | **# Muestra el fichero crontab**  |
+|\\_ -r | **# Borra el fichero crontab**  |
+
 ```
 # Example of job definition:
 # .---------------- minute (0 - 59)
