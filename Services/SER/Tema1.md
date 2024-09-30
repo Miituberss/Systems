@@ -1,4 +1,4 @@
-# Configuracion Interfaces de Red (networking.service)
+# Configuración Interfaces de Red (networking.service)
 ## Servidor
 **cat /etc/network/interfaces**  
 > **#Red Externa**  
