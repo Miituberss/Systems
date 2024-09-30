@@ -1,4 +1,4 @@
-# Configuracion Interfaces de Red
+# Configuracion Interfaces de Red (networking.service)
 ## Servidor
 **cat /etc/network/interfaces**  
 > **#Red Externa**  
@@ -27,4 +27,8 @@ allow-hotplug *interfaz*
 iface *interfaz* inet static  
 address *IP*  
 netmask *máscara*  
-gateway *GW*  
+gateway *GW*
+
+**nano /etc/resolv.conf**
+> nameserver 8.8.8.8
+nameserver 8.8.8.4
