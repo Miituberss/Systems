@@ -69,5 +69,6 @@
 | kill *PID* |
 |   \\_  -l | **# Lista las distintas señales que puedes mandar al proceso** |
 |   \\_  *n* | **# Indica la señal que quieres envíar al proceso** |
-| pkill *comando* | **# Es como kill pero permite busquedas por nombre (a modo pgrep)**   |
+| killall *comando* | **# Mata todos los procesos correspondientes al comando** |
+| pkill *comando* | **# Es como kill pero permite busquedas por nombre (a modo pgrep o killall)**   |
 | pgrep  | **# Permite busquedas por nombre (a modo pgrep)**   |
