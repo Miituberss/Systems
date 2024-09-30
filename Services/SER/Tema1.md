@@ -5,9 +5,9 @@
 auto *interfaz*  
 allow-hotplug *interfaz*  
 iface *interfaz* inet static  
-address  
-netmask  
-gateway  
+address *IP*  
+netmask *máscara*  
+gateway *GW* 
 post-up /sbin/iptables -t nat -A POSTROUTING -o *interfaz* -j MASQUERADE  
 **#Red Local**  
 auto *interfaz*  
