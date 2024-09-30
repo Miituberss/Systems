@@ -35,9 +35,9 @@
 |   \\_ -u | **# User cambia la prioridad para los procesos del usuario especificado** |
 | fg   |
 | bg   |
-| *comando* **&**   |
+| command **&**   |
 | jobs   | **# Muestra los trabajos en 2º plano**   |
-| nohup *comando* & | **# Reenvia la salida a otro lugar (Por DF nohup.out)   protegiendolos de apagados o desconexiones**   |
+| nohup command & | **# Reenvia la salida a otro lugar (Por DF nohup.out)   protegiendolos de apagados o desconexiones**   |
 | yes   |
 | CTRL-C   | **# Mata el proceso**   |
 | CTRL-Z   | **# Detiene el proceso**   |
@@ -69,7 +69,7 @@
 | kill *PID* |
 |   \\_  -l | **# Lista las distintas señales que puedes mandar al proceso** |
 |   \\_  *n* | **# Indica la señal que quieres envíar al proceso** |
-| killall *comando* | **# Mata todos los procesos correspondientes al comando** |
-| pkill *comando* | **# Es como kill pero permite busquedas por nombre (a modo pgrep o killall)**   |
-| pgrep *comando* | **# Permite busquedas por nombre**   |
-| pidof *comando* | **# Saca todos los PID asociados al comando (a modo pgrep)**|
+| killall command | **# Mata todos los procesos correspondientes al comando** |
+| pkill command | **# Es como kill pero permite busquedas por nombre (a modo pgrep o killall)**   |
+| pgrep command | **# Permite busquedas por nombre**   |
+| pidof command | **# Saca todos los PID asociados al comando (a modo pgrep)**|
