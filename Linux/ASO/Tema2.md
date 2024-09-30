@@ -79,6 +79,7 @@
 | COMANDO  | EXPLICACION  |
 |----------|--------------|
 | at *hh:mm* *day\|tomorrow* *now + x hour*| **# Para indicar el final de la ejecución hay que usar CTRL+D, se le puede meter un comando con tubería \[*comando* \| at...\]** |
-| \\_ -f *script* | **# Indica que lo que se debe ejecutar es el script** |
+|   \\_ -f *script* | **# Indica que lo que se debe ejecutar es el script** |
 | atq | **# Muestra las tareas pendientes de at** |
-atrm
+| atrm *num* | **# Elimina un trabajo** |
+| batch *script* | **# Se usa para leer comandos desde un fichero o la entrada estándar y lo ejecuta cuando la carga del sistema lo permite (/proc/loadavg),normalmente cuando está por debajo de 1.5** |
