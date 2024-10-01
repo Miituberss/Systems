@@ -32,8 +32,8 @@
 ![Selección_013](https://github.com/user-attachments/assets/b2ddcc7f-193c-4a8c-a220-6e28c9d04536)
 
 3. Asignar el interfaz para el servicio dhcp:  
-  - Indicar el fichero: /etc/default/isc-dhcp-server  
-  - Indicar el nombre del  interfaz: ens34  
+  - Indicar el fichero: **/etc/default/isc-dhcp-server**  
+  - Indicar el nombre del  interfaz: **ens34**  
 ![Selección_014](https://github.com/user-attachments/assets/686afbd6-eacf-4c58-bdef-73f9b8332674)
 
 4. Editar el fichero /etc/dhcp/dhcpd.conf  
