@@ -9,7 +9,16 @@
 
 # Cliente de DHCP sin servidor
 1. Bajar la interfaz de red de “debian cliente”
+![Selección_010](https://github.com/user-attachments/assets/6375dbd7-cc7f-4b01-a349-a152e167cdbb)
+
 2. Configurar para que tenga ip dinámica
-3. Lanzar wireshark en “ubuntu
-4. Subir tarjeta en “debian cliente
-5. Analizar tráfico del wireshark
+![Selección_009](https://github.com/user-attachments/assets/21a3874d-2471-4a7a-a0a0-510395f1003d)
+
+4. Lanzar wireshark en “ubuntu
+![Selección_011](https://github.com/user-attachments/assets/65e719e3-ea21-4656-9b3f-0cea7ab39b82)
+
+5. Subir tarjeta en “debian cliente
+![Selección_012](https://github.com/user-attachments/assets/218e5255-0a19-41c8-aed5-f79f149bbafd)
+
+6. Analizar tráfico del wireshark
+![Selección_011](https://github.com/user-attachments/assets/65e719e3-ea21-4656-9b3f-0cea7ab39b82)
