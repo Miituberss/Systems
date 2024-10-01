@@ -13,6 +13,6 @@
 
 ## CLIENTE
 **nano /etc/network/interfaces**
-> auto *interfaz*
-> allow-hotplug *interfaz*
-> iface *interfaz* inet DHCP
+> auto *interfaz*  
+> allow-hotplug *interfaz*  
+> iface *interfaz* inet dhcp  
