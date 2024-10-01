@@ -74,7 +74,9 @@
 | pgrep *command* | **# Permite busquedas por nombre**   |
 |   \\_ -u *usuario*| **# Filtra por usuario**|
 | pidof *command* | **# Saca todos los PID asociados al comando (a modo pgrep)**|
-| taskset -c *n,...* *programa* | **# Lanza el programa en los cores indicados en -c** |
+| taskset *programa* | **#** |
+| \\_ -c *n,n,...* | **# Lanza el programa en los cores indicados en -c** |
+| \\_ -p *pid* | **# Relanza un PID al core indicado** |
 
 # Planificación de tareas
 | COMANDO  | EXPLICACION  |
