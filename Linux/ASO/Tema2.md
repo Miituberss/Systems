@@ -22,7 +22,7 @@
 |   \\_ -p *pid* |
 |   \\_ --sort=*opcion* | **# Facilita el ordenar** |
 |   \\_ --forest | **# Formato tree** |
-|   \\_ -o *opcion1, opcion2...* | **# Permite sacar los campos específicos (como el cut)** |
+|   \\_ -o *opcion1, opcion2...* | **# Permite sacar los campos específicos (como el cut), la opcion PSR muetra el core de ejecución** |
 |   \\_ --ppid *PID* | **# Muestra todos los hijos del PID indicado** |
 |   \\_ -L | **# Junto a -p *pid* muestra los threads (LWP) del proceso indicado** |
 | pstree    |
@@ -74,6 +74,7 @@
 | pgrep command | **# Permite busquedas por nombre**   |
 |   \\_ -u *usuario*| **# Filtra por usuario**|
 | pidof command | **# Saca todos los PID asociados al comando (a modo pgrep)**|
+| taskset -c *n,...* *programa* | **# Lanza el programa en los cores indicados en -c** |
 
 # Planificación de tareas
 | COMANDO  | EXPLICACION  |
@@ -89,7 +90,6 @@
 |\\_ -e | **# Edita el fichero crontab**  |
 |\\_ -l | **# Muestra el fichero crontab**  |
 |\\_ -r | **# Borra el fichero crontab**  |
-| taskset -c *n,...* *programa* | **# Lanza el programa en los cores indicados en -c** |
 
 ```
 # Example of job definition:
