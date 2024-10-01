@@ -3,9 +3,11 @@
   ![Selección_007](https://github.com/user-attachments/assets/5a2d5ba2-f502-4df6-ac3b-8e8bf64a9fc2)
 
 2. Capturar con la tarjeta en modo promiscuo  
-3. Ping a la puerta de enlace de “debian servidor  
+3. Ping a la puerta de enlace de "debian servidor" 
+![imagen](https://github.com/user-attachments/assets/67d00e23-0a8f-437a-a9a5-b920865142a6)
+
 4. Analizar la interfaz de wireshark  
-   ![Selección_008](https://github.com/user-attachments/assets/f69941a1-de34-4dbf-87b3-a885cba25fc3)
+![imagen](https://github.com/user-attachments/assets/278d9be5-73e4-42f2-bda5-1e3b3722bb6b)
 
 # Cliente de DHCP sin servidor
 1. Bajar la interfaz de red de "debian cliente"  
