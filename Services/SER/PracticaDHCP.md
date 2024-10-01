@@ -18,7 +18,7 @@
 ![Selección_011](https://github.com/user-attachments/assets/65e719e3-ea21-4656-9b3f-0cea7ab39b82)
 
 5. Subir tarjeta en “debian cliente
-![Selección_012](https://github.com/user-attachments/assets/218e5255-0a19-41c8-aed5-f79f149bbafd)
+![imagen12](https://github.com/user-attachments/assets/b05da09d-20d6-48f2-9e84-45117539fab3)
 
 6. Analizar tráfico del wireshark
 ![Selección_011](https://github.com/user-attachments/assets/65e719e3-ea21-4656-9b3f-0cea7ab39b82)
