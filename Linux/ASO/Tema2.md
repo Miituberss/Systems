@@ -74,9 +74,6 @@
 | pgrep *command* | **# Permite busquedas por nombre**   |
 |   \\_ -u *usuario*| **# Filtra por usuario**|
 | pidof *command* | **# Saca todos los PID asociados al comando (a modo pgrep)**|
-| taskset *programa* | **#** |
-| \\_ -c *n,n,...* | **# Lanza el programa en los cores indicados en -c** |
-| \\_ -p *pid* | **# Relanza un PID al core indicado** |
 
 # Planificación de tareas
 | COMANDO  | EXPLICACION  |
@@ -110,3 +107,14 @@ sudo systemctl set-default graphical.target **# Despliega multiusuario con GUI p
 sudo systemctl start graphical.target **# Despliega de forma temporal la GUI**  
 runlevel **# Indica el nivel de ejecución actual**  
 telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser, 5=GUI)**  
+
+# Afinidad en Linux
+| COMANDO  | EXPLICACION  |
+|----------|--------------|
+| taskset *programa* | **#** |
+| \\_ -c *n,n,...* | **# Lanza el programa en los cores indicados en -c (con -p relanza el proceso a esos cores)** |
+| \\_ -p *pid* | **# Muestra la máscara del PID** |
+| \\_ 0x*n* | **# Se puede concretar la máscara directamente en hexadecimal** |
+| numactl | **#** |
+| \\_ -H | **# Muestra nº de nodos (CPU) y nº de cores** |
+| \\_ -C | **#**|
