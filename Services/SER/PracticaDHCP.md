@@ -129,11 +129,19 @@ El ubuntu no puede ver la liberación debido a que el DHCPRELEASE es un paquete 
 # Configurar tiempo de préstamos
 1. Editar /etc/dhcp/dhcpd.conf en "debian servidor"  
 
+![imagen](https://github.com/user-attachments/assets/48a8c3bc-ddba-4c72-8930-2bc24b0a1901)
+
 2. A continuación, reiniciamos el servicio como siempre para que se aplique la nueva configuración.  
+
+![imagen](https://github.com/user-attachments/assets/0d62f5de-9d93-4366-b700-4df2ca526c58)
 
 3. Bajar y subir ens33 en "debian cliente"   
 
+![imagen](https://github.com/user-attachments/assets/0d62f5de-9d93-4366-b700-4df2ca526c58)
+
 4. Lanzar wireshark en "Ubuntu"  
+
+![imagen](https://github.com/user-attachments/assets/818c12a3-f480-4b70-9cf4-1c56e910af6a)
 
 5. ¿APARECEN MENSAJES DE RENOVACIÓN DE PRÉSTAMO?  
 
@@ -142,10 +150,12 @@ El ubuntu no puede ver la liberación debido a que el DHCPRELEASE es un paquete 
 
 2. Se le asigna una dirección estática cualquiera, menos la que le asigna por defecto el DHCP, por ejemplo: 10.131.72.30  
 
+![imagen](https://github.com/user-attachments/assets/03541f60-4195-4748-8ac4-f74cc00e69fd)
+
 3. Bajar y subir la tarjeta  
 
-4. Comprobar la asignación de IP  
+![imagen](https://github.com/user-attachments/assets/d03bb12b-6703-437c-aa96-371b61fe9960)
 
+4. Comprobar la asignación de IP
 
-
-
+![imagen](https://github.com/user-attachments/assets/3eeec285-ff18-43c4-a516-61aa24db764d)
