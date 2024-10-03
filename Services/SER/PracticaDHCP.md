@@ -91,12 +91,12 @@
 # Finalización de préstamos
 1. Lanzar wireshark en "ubuntu"
 
-2. En “debian cliente” bajar la tarjeta de red
+2. En “debian cliente” bajar la tarjeta de red  
 ![imagen](https://github.com/user-attachments/assets/a974ef86-ba24-4239-bde7-3587dbba7334)
 
 3.Detener la captura en “ubuntu”
 
-4.¿Aparece la trama de liberación de ip? Razona la respuesta
+4.¿Aparece la trama de liberación de ip? Razona la respuesta  
 El ubuntu no puede ver la liberación debido a que el DHCPRELEASE es un paquete unicast hacia el GW
 
 
