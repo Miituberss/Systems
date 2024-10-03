@@ -50,3 +50,8 @@
 
 8. Analiza la concesión DHCP con wireshark  
 ![Selección_018](https://github.com/user-attachments/assets/cd6896a1-0850-4034-8513-62fed1d13778)
+
+# Configuración IP asignada a MAC
+![Selección_022](https://github.com/user-attachments/assets/59434597-dacf-47e5-9f30-ccade61e6fb1)
+![Selección_023](https://github.com/user-attachments/assets/32dbb5b7-c753-4992-beab-9a76e508f96d)
+
