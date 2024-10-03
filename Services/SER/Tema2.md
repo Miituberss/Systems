@@ -8,7 +8,12 @@
 >   range *ip_1* *ip_ultima*;  
 >   option routers *GW*;  
 >   option subnet-mask *mascara*;  
->   option domain-name-servers *DNS*;  
+>   option domain-name-servers *DNS*;
+>
+>   host *nombre*{
+>     hardware ethernet *MACCliente*;
+>     fixed-address *IP*;
+>   }
 > }
 
 ## CLIENTE
