@@ -121,10 +121,30 @@
 
 ![imagen](https://github.com/user-attachments/assets/a974ef86-ba24-4239-bde7-3587dbba7334)
 
-3.Detener la captura en “ubuntu”  
+3. Detener la captura en “ubuntu”  
 
-4.¿Aparece la trama de liberación de ip? Razona la respuesta   
+4. ¿Aparece la trama de liberación de ip? Razona la respuesta   
 El ubuntu no puede ver la liberación debido a que el DHCPRELEASE es un paquete unicast hacia el GW
+
+# Configurar tiempo de préstamos
+1. Editar /etc/dhcp/dhcpd.conf en "debian servidor"  
+
+2. A continuación, reiniciamos el servicio como siempre para que se aplique la nueva configuración.  
+
+3. Bajar y subir ens33 en "debian cliente"   
+
+4. Lanzar wireshark en "Ubuntu"  
+
+5. ¿APARECEN MENSAJES DE RENOVACIÓN DE PRÉSTAMO?  
+
+# Cliente dormido DHCP
+1. Editar /etc/network/interfaces en "debian cliente"   
+
+2. Se le asigna una dirección estática cualquiera, menos la que le asigna por defecto el DHCP, por ejemplo: 10.131.72.30  
+
+3. Bajar y subir la tarjeta  
+
+4. Comprobar la asignación de IP  
 
 
 
