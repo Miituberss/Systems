@@ -75,17 +75,17 @@
 ![imagen](https://github.com/user-attachments/assets/e9efed70-98dc-4bc6-9e1f-4d40f4944566)
 
 # Análisis del protocolo DHCP
-1. En Ubuntu desactivar la tarjeta
+1. En Ubuntu desactivar la tarjeta  
 ![imagen](https://github.com/user-attachments/assets/384bc1f0-c7ea-4ff9-b6f0-61f3fc39f8a5)
 
-2. Iniciar captura con wireshark
+2. Iniciar captura con wireshark  
 ![imagen](https://github.com/user-attachments/assets/7679f60e-a659-4242-bd51-222b6ea91d02)
 
-3. Subir la tarjeta
+3. Subir la tarjeta  
 ![imagen](https://github.com/user-attachments/assets/6b0319f1-d707-40dd-a4db-f35077dada8c)
 
 4. Detener la captura
-5. Analizar las tramas
+5. Analizar las tramas  
 ![imagen](https://github.com/user-attachments/assets/f8022b2f-ec14-4a8c-9400-683a6c1fa964)
 
 
