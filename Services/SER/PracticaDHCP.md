@@ -42,10 +42,10 @@
 5. Reiniciar el servicio  
 ![Selección_016](https://github.com/user-attachments/assets/93b3e152-81ab-4c78-ad69-db6945b8af04)
 
-6. En “debian cliente”, bajar y subir la tarjeta  
+6. En "debian cliente", bajar y subir la tarjeta  
 ![Selección_015](https://github.com/user-attachments/assets/56e55dca-ebc5-4c39-9de4-0d1bc125b721)
 
-7. Comprobar la ip de “debian cliente”  
+7. Comprobar la ip de "debian cliente"  
 ![Selección_017](https://github.com/user-attachments/assets/3eb4485b-c8f3-4654-b34e-1896be3a3006)
 
 8. Analiza la concesión DHCP con wireshark  
@@ -55,4 +55,39 @@
 1. Editar del fichero de configuración del dhcp
 2. Añadir una ip (10.x.y.2) utilizando la Mac de de debian cliente:
 ![Selección_023](https://github.com/user-attachments/assets/32dbb5b7-c753-4992-beab-9a76e508f96d)
+
+4. Reiniciar el servicio dhcp
+![imagen](https://github.com/user-attachments/assets/407dd1e2-6eed-4743-bde7-2f531f7b1777)
+
+6. En "debian cliente", bajar y subir la tarjeta
+![imagen](https://github.com/user-attachments/assets/ec6f4f7b-dc5b-4abf-bcc7-e1f95fafa116)
+
+8. Comprobar ip de "debian cliente"
+![imagen](https://github.com/user-attachments/assets/35e6bbaf-5e52-4589-82df-b06f7c0931fd)
+
+10. En "ubuntu", configurar la tarjeta para el dhcp
+![imagen](https://github.com/user-attachments/assets/aabbb521-8e14-4912-b519-8891048640f3)
+
+12. En "debian servidor", añadir "ubuntu" al dhcp para asignarle ip fija (10.x.y.3), comprobar ip en "ubuntu"
+![imagen](https://github.com/user-attachments/assets/4a3221be-ead2-40b6-a588-70c94fab6648)
+
+13. Ver la configuración del dns
+![imagen](https://github.com/user-attachments/assets/e9efed70-98dc-4bc6-9e1f-4d40f4944566)
+
+# Análisis del protocolo DHCP
+1. En Ubuntu desactivar la tarjeta
+![imagen](https://github.com/user-attachments/assets/384bc1f0-c7ea-4ff9-b6f0-61f3fc39f8a5)
+
+2. Iniciar captura con wireshark
+![imagen](https://github.com/user-attachments/assets/7679f60e-a659-4242-bd51-222b6ea91d02)
+
+3. Subir la tarjeta
+![imagen](https://github.com/user-attachments/assets/6b0319f1-d707-40dd-a4db-f35077dada8c)
+
+4. Detener la captura
+5. Analizar las tramas
+![imagen](https://github.com/user-attachments/assets/f8022b2f-ec14-4a8c-9400-683a6c1fa964)
+
+
+
 
