@@ -158,4 +158,5 @@ El ubuntu no puede ver la liberación debido a que el DHCPRELEASE es un paquete 
 
 4. Comprobar la asignación de IP
 
+Esto pasa por no bajar la interfaz antes de realizar la configuración, de esta manera no mata el servicio DHCPClient 
 ![imagen](https://github.com/user-attachments/assets/3eeec285-ff18-43c4-a516-61aa24db764d)
