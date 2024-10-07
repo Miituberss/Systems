@@ -4,10 +4,12 @@
 > INTERFACESv4="*interfaz*"
 
 **nano /etc/dhcp/dhcpd.conf**
-> #Tiempo de préstamo
-> default-lease-time *seg*;
+> #Tiempo de préstamo  
+> default-lease-time *seg*;  
 > max-lease-time *seg*;
+> 
 > ...
+> 
 >  subnet *ip_red* netmask *mascara* {  
 >   range *ip_1* *ip_ultima*;  
 >   option routers *GW*;  
