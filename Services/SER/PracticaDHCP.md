@@ -176,3 +176,12 @@ Se cambia el rango de las direcciones IP que concede el servidor DHCP de la 10 a
 3. Asignar por rango del DHCP una máquina windows  
 
 ![imagen](https://github.com/user-attachments/assets/060f888a-07c0-446c-8323-a6393072d097)
+
+# Registro de los préstamos
+
+1. Abrir el fichero /var/lib/dhcp/dhcpd.leases en "debian servidor"  
+![imagen](https://github.com/user-attachments/assets/fc6afa3a-d3f1-4c89-83d3-1d22b46ccbb2)
+
+2. ¿Aparece la anotación de préstamo de todas las máquinas? Razona la respuesta.  
+No, las maquinas que tienen una IP fija por MAC no se registran, ya que este fichero permite tener un log de todas las máquinas "desconocidas" que solicitan una IP.
+
