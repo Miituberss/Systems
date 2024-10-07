@@ -31,13 +31,13 @@ Cliente:
 | DHCPNACK | El servidor niega la cesión de la configuración solicitada por el cliente, esto se puede dar porque la configuración ofrecida haya caducado o se haya dado a otro cliente | Servidor |
 
 ### Significado de cada uno de estos conceptos es:
-var/lib/dhcp/dhcpd.leases: Fichero donde se registran todas las cesiones de una IP siempre que no estén fijadas por MAC  
-Default-lease-time: Tiempo medio de cesión de una IP en segundos  
-Max-lease-time: Tiempo máximo de cesión de una IP en segundos  
-Option subnet-mask: Máscara de red que se dará en las ofertas DHCP del rango configurado  
-Option broadcast-address: Red de broadcast que se dará en las ofertas DHCP del rango configurado  
-Option domain-name-servers: Servidores DNS separados por coma que se dará en las ofertas DHCP del rango configurado   
-Option domain-name: Nombre de dominio que se dará en las ofertas DHCP del rango configurado  
+**/var/lib/dhcp/dhcpd.leases**: Fichero donde se registran todas las cesiones de una IP siempre que no estén fijadas por MAC  
+**Default-lease-time**: Tiempo medio de cesión de una IP en segundos  
+**Max-lease-time**: Tiempo máximo de cesión de una IP en segundos  
+**Option subnet-mask**: Máscara de red que se dará en las ofertas DHCP del rango configurado  
+**Option broadcast-address**: Red de broadcast que se dará en las ofertas DHCP del rango configurado  
+**Option domain-name-servers**: Servidores DNS separados por coma que se dará en las ofertas DHCP del rango configurado   
+**Option domain-name**: Nombre de dominio que se dará en las ofertas DHCP del rango configurado  
 
 ### Arranque y parada manual del servidor DHCP
 ![imagen](https://github.com/user-attachments/assets/9934f7de-fcd0-42d8-b8bd-aeb8ac1ae8d4)
