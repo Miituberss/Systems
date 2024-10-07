@@ -160,3 +160,17 @@ El ubuntu no puede ver la liberación debido a que el DHCPRELEASE es un paquete 
 
 Esto pasa por no bajar la interfaz antes de realizar la configuración, de esta manera no mata el servicio DHCPClient 
 ![imagen](https://github.com/user-attachments/assets/3eeec285-ff18-43c4-a516-61aa24db764d)
+
+# Terminando la configuración
+
+1. Cambiar los tirmpos del fichero DHCP
+
+Se restauran los tiempos de concesión y espera para renovación del fichero de configuración a sus valores por defecto.  
+![imagen](https://github.com/user-attachments/assets/ee8aaa46-e97c-40ca-814e-87fc96d9c29d)
+
+2. Cambiar el rango de IPs del DHCP
+
+Se cambia el rango de las direcciones IP que concede el servidor DHCP de la 10 a la 15  
+![imagen](https://github.com/user-attachments/assets/4e3a4707-9fd1-4282-bfc0-6f716b636a19)
+
+3. ASIGNAR POR RANGO DEL DHCP UNA MÁQUINA WINDOWS
