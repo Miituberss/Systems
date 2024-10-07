@@ -137,7 +137,8 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 |\\_ --all ||
 |\\_ --state= ||
 |\\_ --type= ||
-|\\_ cat *servicio* | **# Hace un cat al fichero del servicio**
+|\\_ cat *servicio* | **# Hace un cat al fichero del servicio**|
+
 ![imagen](https://github.com/user-attachments/assets/8db6fffc-fa43-416b-a322-48c10fed9146)
 
 # Parada del sistema
