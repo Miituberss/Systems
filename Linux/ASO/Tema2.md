@@ -130,13 +130,18 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 | COMANDO  | EXPLICACION  |
 |----------|--------------|
 |systemctl |**# Lista los servicios**|
-|--failed|**# Lista los servicios fallando**|
-|\[start\|stop\|reload\|restart\]|**#**|
-|\[disable\|enable\]|**#**|
+|\\_ --failed|**# Lista los servicios fallando**|
+|\\_ \[start\|stop\|reload\|restart\]|**#**|
+|\\_ \[disable\|enable\]|**#**|
+|\\_ --level=*filtro*| Filtra los mensajes para ver (err,warn...)|
+|\\_ --all ||
+|\\_ --state= ||
+|\\_ --type= ||
+|\\_ cat *servicio* | **# Hace un cat al fichero del servicio**
+![imagen](https://github.com/user-attachments/assets/8db6fffc-fa43-416b-a322-48c10fed9146)
 
 # Parada del sistema
 | COMANDO  | EXPLICACION  |
 |----------|--------------|
 |wall|**# Manda un mensaje a todos los usuarios conectados al sever. Ej. Aviso de que se apagara por labores de mantenimiento en x tiempo**|
 |demesg|**# Muestra mensajes/logs**|
-|--level=*filtro*| Filtra los mensajes para ver (err,warn...)|
