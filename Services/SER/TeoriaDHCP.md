@@ -1,6 +1,6 @@
 # CUESTIONES DHCP
 
-### DHCP FAILOVER protocolo
+### Protocolo DHCP FAILOVER 
 Tipos de conmutación por error
 
 ### Problemas asociados a DHCP
@@ -17,9 +17,9 @@ DHCP es un protocolo no autentificado
 ### El cliente DHCP escucha por 68
 ### Demuéstralo.
 Servidor:  
-![imagen](https://github.com/user-attachments/assets/0fb2025b-a853-44c1-b46f-09c10a72907d)
+![imagen](https://github.com/user-attachments/assets/0fb2025b-a853-44c1-b46f-09c10a72907d)  
 Cliente:  
-![imagen](https://github.com/user-attachments/assets/78475a0a-995c-4731-b9ce-f07a2726369b)
+![imagen](https://github.com/user-attachments/assets/78475a0a-995c-4731-b9ce-f07a2726369b)  
 
 ### Completa
 | Orden | Significado | Cliente/Servidor |
@@ -40,6 +40,14 @@ Option domain-name-servers: Servidores DNS separados por coma que se dará en la
 Option domain-name: Nombre de dominio que se dará en las ofertas DHCP del rango configurado  
 
 ### Arranque y parada manual del servidor DHCP
+![imagen](https://github.com/user-attachments/assets/9934f7de-fcd0-42d8-b8bd-aeb8ac1ae8d4)
+
 ### Archivo de concesiones
+/var/lib/dhcp/dhcpd.leases  
+![imagen](https://github.com/user-attachments/assets/b5af9235-e381-42f5-901d-0c222bb934bc)
+
 ### Interfaz del servidor
+![imagen](https://github.com/user-attachments/assets/ec4a6d50-01a9-4e83-9ae6-1c754cccc18b)
+
 ### Ejemplo reserva por MAC
+![imagen](https://github.com/user-attachments/assets/326a7d96-a3bf-4f91-9a02-a4ed7645be79)
