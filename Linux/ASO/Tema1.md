@@ -41,3 +41,4 @@
 | glxinfo   | **#**  |
 | xrandr   | **#**  |
 | aplay -l | **#**  |
+| file *archivo* | **#Muestra el tipo de fichero**  |
