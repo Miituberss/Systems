@@ -37,8 +37,9 @@
 | mount   | **# Monta dispositivos**  |
 | sysinfo   | **# Información del sistema con GUI**  |
 | hdparm   | **# Modifica parámetros de los volúmenes**  |
+| file *archivo* | **#Muestra el tipo de fichero**  |
 | **No entra**  | **Comandos para monitor y gráfica** |
 | glxinfo   | **#**  |
 | xrandr   | **#**  |
 | aplay -l | **#**  |
-| file *archivo* | **#Muestra el tipo de fichero**  |
+
