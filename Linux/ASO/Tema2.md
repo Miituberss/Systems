@@ -117,4 +117,10 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 | \\_ 0x*n* | **# Se puede concretar la máscara directamente en hexadecimal** |
 | numactl | **#** |
 | \\_ -H | **# Muestra nº de nodos (CPU) y nº de cores** |
-| \\_ -C | **#**|
+| \\_ -C | **#** |
+| chkconfig *servicio* |**# Lanza la configuración de servicios de arranque**|
+| \\_ -l |**# Muestra todos los servicios** |
+| \\_ --deps |**# Muestra las dependencias** |
+| \\_ --add |**# Añade el servicio al arranque** |
+| \\_ --del |**# Elimina el servicio del arranque** |
+| \\_ --level *nn* |**# Arranca procesos en los runlevel indicados** |
