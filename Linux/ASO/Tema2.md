@@ -138,6 +138,18 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 |\\_ --state= ||
 |\\_ --type= ||
 |\\_ cat *servicio* | **# Hace un cat al fichero del servicio**|
+|\\_ show *servicio* | **# Muestra los parámetros de la unidad**|
+|\\_ is-active *servicio* | **# Creo que se entiende**|
+|\\_ is-enabled *servicio* | **# Creo que se entiende**|
+|\\_ is-failed *servicio* | **# Creo que se entiende**|
+|journalctl| **# Trabaja con el daemon journald y sirve para logs**|
+|\\_ -b[*-n*] | **# Logs del arranque con [*-n*] vemos el boot del dia indicado del list-boots** |
+|\\_ --list-boots | **# Lista todos los logs de arranque disponibles** |
+|\\_ --since "*fecha*" | **# Lista todos los logs de arranque disponibles** |
+|\\_ yesterday --until "*1hour ago*" | **# Lista todos los logs de arranque disponibles** |
+|\\_ -u *unidad*| **# Indico la unidad** |
+|\\_ -p *palabra* | **# Indico tipo de log (err,warning...)** |
+
 
 ![imagen](https://github.com/user-attachments/assets/8db6fffc-fa43-416b-a322-48c10fed9146)
 
