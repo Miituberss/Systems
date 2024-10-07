@@ -124,3 +124,19 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 | \\_ --add |**# Añade el servicio al arranque** |
 | \\_ --del |**# Elimina el servicio del arranque** |
 | \\_ --level *nn* |**# Arranca procesos en los runlevel indicados** |
+
+
+# Systemd
+| COMANDO  | EXPLICACION  |
+|----------|--------------|
+|systemctl |**# Lista los servicios**|
+|--failed|**# Lista los servicios fallando**|
+|\[start\|stop\|reload\|restart\]|**#**|
+|\[disable\|enable\]|**#**|
+
+# Parada del sistema
+| COMANDO  | EXPLICACION  |
+|----------|--------------|
+|wall|**# Manda un mensaje a todos los usuarios conectados al sever. Ej. Aviso de que se apagara por labores de mantenimiento en x tiempo**|
+|demesg|**# Muestra mensajes/logs**|
+|--level=*filtro*| Filtra los mensajes para ver (err,warn...)|
