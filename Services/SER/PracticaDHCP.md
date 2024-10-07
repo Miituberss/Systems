@@ -173,6 +173,6 @@ Se restauran los tiempos de concesión y espera para renovación del fichero de 
 Se cambia el rango de las direcciones IP que concede el servidor DHCP de la 10 a la 15  
 ![imagen](https://github.com/user-attachments/assets/4e3a4707-9fd1-4282-bfc0-6f716b636a19)
 
-3. ASIGNAR POR RANGO DEL DHCP UNA MÁQUINA WINDOWS  
+3. Asignar por rango del DHCP una máquina windows  
 
 ![imagen](https://github.com/user-attachments/assets/060f888a-07c0-446c-8323-a6393072d097)
