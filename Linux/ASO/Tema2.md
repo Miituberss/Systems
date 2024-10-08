@@ -142,6 +142,10 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 |\\_ is-active *servicio* | **# Creo que se entiende**|
 |\\_ is-enabled *servicio* | **# Creo que se entiende**|
 |\\_ is-failed *servicio* | **# Creo que se entiende**|
+|\\_ list-unit-files --type=target | **# Muestra un listado de los targets disponibles en el sistema**| **TARGETS**
+|\\_ list-units --type=target | **# Muestra un listado de los targets activos**|
+|\\_ get-default | **# Muestra el target por defecto (graphical.target)**|
+|\\_ isolate multi-user.target | **# Antiguamente conocido como cambiar de runlevel.**|
 |journalctl| **# Trabaja con el daemon journald y sirve para logs**|
 |\\_ -b[*-n*] | **# Logs del arranque con [*-n*] vemos el boot del dia indicado del list-boots** |
 |\\_ --list-boots | **# Lista todos los logs de arranque disponibles** |
@@ -149,6 +153,11 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 |\\_ yesterday --until "*1hour ago*" | **# Lista todos los logs de arranque disponibles** |
 |\\_ -u *unidad*| **# Indico la unidad** |
 |\\_ -p *palabra* | **# Indico tipo de log (err,warning...)** |
+|\\_ -F *campo* | **# Filtro por campo** |
+|\\_ --disk-usage | **# Espacio ocupado en disco del journal** |
+|\\_ --vacuum-size=1G | **# Reduce el tamaño ocupado por los logs a 1GB**|
+|\\_ --vacuum-time=1years | **# Elimina todos los mensajes de log anteriores a un año**|
+
 
 
 ![imagen](https://github.com/user-attachments/assets/8db6fffc-fa43-416b-a322-48c10fed9146)
