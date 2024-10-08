@@ -143,6 +143,7 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 |\\_ is-enabled *servicio* | **# Creo que se entiende**|
 |\\_ is-failed *servicio* | **# Creo que se entiende**|
 |\\_ list-unit-files --type=target | **# Muestra un listado de los targets disponibles en el sistema**| **TARGETS**
+|\\_ daemon-reload| **# Hace un relad a todos los sevicios** |
 |\\_ list-units --type=target | **# Muestra un listado de los targets activos**|
 |\\_ get-default | **# Muestra el target por defecto (graphical.target)**|
 |\\_ isolate multi-user.target | **# Antiguamente conocido como cambiar de runlevel.**|
@@ -158,7 +159,8 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 |\\_ --disk-usage | **# Espacio ocupado en disco del journal** |
 |\\_ --vacuum-size=1G | **# Reduce el tamaño ocupado por los logs a 1GB**|
 |\\_ --vacuum-time=1years | **# Elimina todos los mensajes de log anteriores a un año**|
-
+|systemd-analyze verify *ruta*|**# Si no se devuelve nada, entonces el fichero es correcto y no tiene fallos.**|
+|systemd-analyze time| **# Muestra el tiemoo de arranque del equipo**|
 
 
 ![imagen](https://github.com/user-attachments/assets/8db6fffc-fa43-416b-a322-48c10fed9146)
