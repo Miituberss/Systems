@@ -8,8 +8,14 @@ DHCP es un protocolo no autentificado
 
 ### BOOTP
 - Características
+BOOTP es un protocolo TCP/IP. Permite a un cliente encontrar su dirección IP y el nombre de un archivo de carga en un servidor de la red. Los clientes utilizan BOOTP para encontrar esta información sin la intervención del usuario del cliente, es utilizado para los equipos sin disco
 - Funcionamiento de BOOTP
+    El cliente determina su propia dirección de hardware; esta dirección está normalmente en una ROM en el hardware.
+    Un cliente BOOTP envía su dirección hardware en un datagrama UDP al servidor. Si el cliente sabe su dirección IP y/o la dirección del servidor, debería usarlos, pero en general los clientes BOOTP no tienen datos de configuración IP del todo. Si el cliente no sabe su propia dirección IP, usa 0.0.0.0. Si el cliente no sabe la dirección IP del servidor, usa la dirección broadcast limitada (255.255.255.255). El número de puerto UDP es el 67.
+    El servidor recibe el datagrama y busca la dirección hardware del cliente en su fichero de configuración, que contiene la dirección IP del cliente. El servidor rellena los campos restantes en el datagrama UDP y lo devuelve al cliente usando el puerto UDP 68.
+    Cuando recibe la respuesta, el cliente BOOTP grabará su propia dirección IP (permitiendo que responda a las peticiones ARP) y comenzará el proceso de bootstrapping.
 - Comparación de BOOTP y DHCP
+
 
 ### ¿Qué configuraciones básicas incluye el DHCP?
 
