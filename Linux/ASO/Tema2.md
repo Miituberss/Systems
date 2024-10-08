@@ -147,6 +147,7 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 |\\_ list-units --type=target | **# Muestra un listado de los targets activos**|
 |\\_ get-default | **# Muestra el target por defecto (graphical.target)**|
 |\\_ isolate multi-user.target | **# Antiguamente conocido como cambiar de runlevel.**|
+|\\_ --user *opcion*|**# Permite lanzar cualquier timer al momento para hacer comprobaciones**|
 |||
 |journalctl| **# Trabaja con el daemon journald y sirve para logs**|
 |\\_ -b[*-n*] | **# Logs del arranque con [*-n*] vemos el boot del dia indicado del list-boots** |
