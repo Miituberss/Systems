@@ -4,7 +4,7 @@
 - **AAAA:** Direccion IPv6 el dominio
 - **CNAME:** Nombre canónico (Alias) del dominio
 - **MX:** Dominio de correo
-- **PTR:** Hace la resoluición inversa (Alias -> IP)
+- **PTR:** Hace la resolución inversa (Alias -> IP)
 - **NS:** Dominio autoritativo
 - **SOA:** Comienzo de autoridad, contiene datos del dominio (zona, fecha...)
 # nslookup
