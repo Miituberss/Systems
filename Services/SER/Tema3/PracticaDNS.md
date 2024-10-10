@@ -4,7 +4,7 @@
 
   - EN “DEBIAN SERVIDOR”, MODIFICAR EL FICHERO CON UNA IP NULA
 
-![imagen](https://github.com/user-attachments/assets/4228ade4-169b-40e9-bf80-a6fe173ecd05)  
+![imagen](https://github.com/user-attachments/assets/4228ade4-169b-40e9-bf80-a6fe173ecd05)
 
   - AL LANZAR UN PING, ¿QUÉ ERROR SALE? Razona la respuesta.  
     Da un error al intentar resolver el nombre de dominio es decir la red fucniona pero no el DNS   
