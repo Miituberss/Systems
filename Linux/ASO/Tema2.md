@@ -174,29 +174,45 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 # Timers y services
 Gracias a systemd podemos crear nuestros propios servicios y programar su ejecución.  
 **x.service**
-```
-[Unit]
-Description=Una prueba
+>[Unit]Description=Una prueba
+>
+>[Service]
+>Type=oneshot
+>ExecStart=/bin/bash /home/vagrant/SCRIPTS/logFecha.sh
 
-[Service]
-Type=oneshot
-ExecStart=/bin/bash /home/vagrant/SCRIPTS/logFecha.sh
-```
 
 **x.timer**
-```
-Type=oneshot
-ExecStart=/bin/bash /home/vagrant/SCRIPTS/logFecha.sh
-root@lubuntu-vagrant:/home/vagrant/.config/systemd/user# cat test.timer
+>Type=oneshotExecStart=/bin/bash /home/vagrant/SCRIPTS/logFecha.sh
+>root@lubuntu-vagrant:/home/vagrant/.config/systemd/user# cat test.timer
+>
+>[Unit]
+>Description=Runs every 1 minutes logFecha.sh
+>
+>[Timer]
+>OnCalendar=*:0/1
+>Unit=test.service
+>\# Podemos poner Unit=test.service
+>
+>[Install]
+>WantedBy=timers.target
 
-[Unit]
-Description=Runs every 1 minutes logFecha.sh
+# Swappiness
+ZRAM -> Es una especie de SWAP pero que mejora el rendimiento de la RAM no solo la descarga de esta  
 
-[Timer]
-OnCalendar=*:0/1
-Unit=test.service
-# Podemos poner Unit=test.service
+Permite balancear el uso del Espacio de Intercambio, el SWAP es una porción del disco duro (mejor HDD el SSD acorta su vida) utilizado como apoyo de RAM, es más lenta pero más grande  
 
-[Install]
-WantedBy=timers.target
-```
+El nivel de swapping se mide en porcentaje destinado a swap, Ej. 60 = 40% RAM, 60% SWAP  
+
+Niveles de swappiness recomendados:  
+Servidores -> 10  
+Escritorio > 1GB RAM -> 10  
+Escritorio <= 1GB RAM -> 60  
+
+| COMANDO  | EXPLICACION  |
+|----------|--------------|
+|cat /proc/sys/vm/swappiness|**# Averiguo mi swapiness**|
+|echo *n* > /proc/sys/vm/swappiness|**# Pruebo valores de SWAP de forma temporal**|
+
+Si queremos modificarlo de forma permanente:  
+**nano /etc/sysctl.conf**
+> vm.swappiness = *n*
