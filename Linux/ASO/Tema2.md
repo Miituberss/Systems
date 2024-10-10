@@ -125,6 +125,11 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 | \\_ --del |**# Elimina el servicio del arranque** |
 | \\_ --level *nn* |**# Arranca procesos en los runlevel indicados** |
 
+# Parada del sistema
+| COMANDO  | EXPLICACION  |
+|----------|--------------|
+|wall|**# Manda un mensaje a todos los usuarios conectados al sever. Ej. Aviso de que se apagara por labores de mantenimiento en x tiempo**|
+|demesg|**# Muestra mensajes/logs**|
 
 # Systemd
 | COMANDO  | EXPLICACION  |
@@ -166,8 +171,32 @@ telinit *n* **# Modifica el nivel de ejecución (1=rescue mode, 3=CLI-Multiuser,
 
 ![imagen](https://github.com/user-attachments/assets/8db6fffc-fa43-416b-a322-48c10fed9146)
 
-# Parada del sistema
-| COMANDO  | EXPLICACION  |
-|----------|--------------|
-|wall|**# Manda un mensaje a todos los usuarios conectados al sever. Ej. Aviso de que se apagara por labores de mantenimiento en x tiempo**|
-|demesg|**# Muestra mensajes/logs**|
+# Timers y services
+Gracias a systemd podemos crear nuestros propios servicios y programar su ejecución.  
+**x.service**
+```
+[Unit]
+Description=Una prueba
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /home/vagrant/SCRIPTS/logFecha.sh
+```
+
+**x.timer**
+```
+Type=oneshot
+ExecStart=/bin/bash /home/vagrant/SCRIPTS/logFecha.sh
+root@lubuntu-vagrant:/home/vagrant/.config/systemd/user# cat test.timer
+
+[Unit]
+Description=Runs every 1 minutes logFecha.sh
+
+[Timer]
+OnCalendar=*:0/1
+Unit=test.service
+# Podemos poner Unit=test.service
+
+[Install]
+WantedBy=timers.target
+```
