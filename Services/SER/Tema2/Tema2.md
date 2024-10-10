@@ -1,4 +1,4 @@
-# DHCP (isc-dhcp-server.service)
+# DHCP (isc-dhcp-server.service)(S=67, C=68)
 ## Servidor
 **nano /etc/default/isc-dhcp-server**
 > INTERFACESv4="*interfaz*"
