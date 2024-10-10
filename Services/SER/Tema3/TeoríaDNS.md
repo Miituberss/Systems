@@ -1,4 +1,4 @@
-# DNS (53)
+# DNS (.service)(53)
 # Tipos de registo DNS
 - **A:** Dirección IP real del dominio
 - **AAAA:** Direccion IPv6 el dominio
