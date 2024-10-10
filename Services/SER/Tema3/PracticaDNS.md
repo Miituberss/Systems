@@ -107,3 +107,12 @@ Utilizar “nslookup” para resolver varios dominios:
   - dig -t CNAME www.cisco.com  
 
 <div align="center"><img src="https://github.com/user-attachments/assets/f711c96d-592b-48ed-a384-4832c995aac0"></div>  
+
+# 3.5 DOMINIO DE BÚSQUEDA Y DHCP
+<div align="center"><img src="https://github.com/user-attachments/assets/f987fa4d-47ef-43de-94b8-907607bdfd37"></div>  
+
+Si, se ha modificado los dominios example.org del /etc/resolv.conf y ahora tiene como dominio clase.example que es el que hemos indicado en el DHCP  
+
+<div align="center"><img src="https://github.com/user-attachments/assets/600469a0-6134-4b58-9198-fc2433c595c0"></div>  
+
+<div align="center"><img src="https://github.com/user-attachments/assets/d21dfba5-768c-459d-998b-ae88ec36716c"></div>  
