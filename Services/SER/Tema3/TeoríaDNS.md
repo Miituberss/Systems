@@ -14,3 +14,9 @@ nslookup
 > server 8.8.8.8 # Cambio el server al que quiero preguntar
 > www.elpais.com # Indico que dominio quiero analizar
 ```
+# dig
+```SH
+dig
+\_ -x # Indica resolución inversa (PTR)
+\_ @8.8.8.8 es ns # Busca en dominio en un tipo especifico
+```
