@@ -7,3 +7,10 @@
 - **PTR:** Hace la resoluición inversa (Alias -> IP)
 - **NS:** Dominio autoritativo
 - **SOA:** Comienzo de autoridad, contiene datos del dominio (zona, fecha...)
+# nslookup
+```SH
+nslookup
+> set type=CNAME # Cambio el tipo de registro que quiero consultar
+> server 8.8.8.8 # Cambio el server al que quiero preguntar
+> www.elpais.com # Indico que dominio quiero analizar
+```
