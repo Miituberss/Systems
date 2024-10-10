@@ -5,4 +5,4 @@
 - **MX:** Dominio de correo
 - **PTR:** Hace la resoluición inversa (Alias -> IP)
 - **NS:** Dominio autoritativo
-- **SOA:** Comienzo de autoridad
+- **SOA:** Comienzo de autoridad, contiene datos del dominio (zona, fecha...)
